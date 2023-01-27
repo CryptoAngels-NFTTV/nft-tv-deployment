@@ -1,0 +1,2 @@
+#!/bin/sh
+../nft-tv-api/gradlew build -p ../nft-tv-api/. && docker build -t nft-tv-collector ../nft-collector/. && docker build -t nft-tv-processor ../nft-processor/. && docker build -t nft-tv-api ../nft-tv-api/.
