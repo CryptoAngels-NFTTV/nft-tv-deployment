@@ -53,4 +53,9 @@ services:
     environment:
       - SPRING_DATA_MONGODB_URI=mongodb://admin:bas1cPa22@host.docker.internal:27017
       - SPRING_DATA_MONGODB_DATABASE=nft-cache
+  
+  nft-tv-client:
+    image: nft-tv-client:latest
+    ports:
+      - 9080:80
 
