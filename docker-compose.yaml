@@ -49,7 +49,7 @@ services:
     image: 'nft-tv-api:latest'
     restart: always
     ports:
-      - 8080:8080
+      - 8043:8080
     environment:
       - SPRING_DATA_MONGODB_URI=mongodb://admin:bas1cPa22@host.docker.internal:27017
       - SPRING_DATA_MONGODB_DATABASE=nft-cache
